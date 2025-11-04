@@ -4,7 +4,7 @@
 
 ## Publication
 
-* Accepted at Machine Learning: Science and Technology journal (IOP Publishing, Q1, Impact Factor = 4.6)
+* Accepted at Machine Learning: Science and Technology journal (IOP Publishing, Q1, Impact Factor = 4.6): https://iopscience.iop.org/article/10.1088/2632-2153/ae1acd
 
 * NeurIPS 2024 Workshop NeurReps: https://openreview.net/forum?id=tN0n5BuLEI
 
