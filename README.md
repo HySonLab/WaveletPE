@@ -93,7 +93,25 @@ wavepe-master/
 ```
 
 ## Citation
-If you use this work in your research, please cite the corresponding paper:
+If you use this work in your research, please cite the corresponding papers:
+
+```bibtex
+@article{Anh Nguyen_2025,
+doi = {10.1088/2632-2153/ae1acd},
+url = {https://doi.org/10.1088/2632-2153/ae1acd},
+year = {2025},
+month = {nov},
+publisher = {IOP Publishing},
+volume = {6},
+number = {4},
+pages = {045043},
+author = {Anh Nguyen, Viet and Khang Ngo, Nhat and Hy, Truong-Son},
+title = {Range-aware graph positional encoding via high-order pretraining: theory and practice},
+journal = {Machine Learning: Science and Technology},
+abstract = {Unsupervised pre-training on vast amounts of graph data is critical in real-world applications wherein labeled data is limited, such as molecule properties prediction or materials science. Existing approaches pre-train models for specific graph domains, neglecting the inherent connections within networks. This limits their ability to transfer knowledge to various supervised tasks. In this work, we propose a novel pre-training strategy on graphs that focuses on modeling their multi-resolution structural information, allowing us to capture global information of the whole graph while preserving local structures around its nodes. We extend the work of Graph Wavelet Positional Encoding (WavePE) from Ngo et al (2023 J. Chem. Phys. 159 034109) by pretraining a High-Order Permutation-Equivariant Autoencoder (HOPE-WavePE) to reconstruct node connectivities from their multi-resolution wavelet signals. Since our approach relies solely on the graph structure, it is domain-agnostic and adaptable to datasets from various domains, therefore paving the way for developing general graph structure encoders and graph foundation models. We theoretically demonstrate that for k given resolutions, the width required for the autoencoder to learn arbitrarily long-range information is  where  denote the number of nodes and the rank of normalized Laplacian, respectively, and ε is the error tolerance defined by the Frobenius norm. We also evaluate HOPE-WavePE on graph-level prediction tasks of different areas and show its superiority compared to other methods. Our source code is publicly available at https://github.com/HySonLab/WaveletPE.}
+}
+```
+
 ```bibtex
 @inproceedings{
 nguyen2025rangeaware,
